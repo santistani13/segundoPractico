@@ -9,6 +9,8 @@ public class Notebook {
     public string marca { get; set; }
     public string modelo { get; set; }
     public int precio { get; set; }
-
+    public int PaisOrigenId { get; set; }
+    public virtual PaisOrigen PaisOrigen { get; set; }
     public virtual List<Empresa> Empresas { get; set; }
+
 }

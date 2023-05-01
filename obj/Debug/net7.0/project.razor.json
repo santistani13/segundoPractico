@@ -18655,6 +18655,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\santi\\ISTEA\\Herramientas de programacion\\segundo practico\\segundoPractico\\Views\\PaisOrigen\\Create.cshtml",
+      "TargetPath": "Views\\PaisOrigen\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\santi\\ISTEA\\Herramientas de programacion\\segundo practico\\segundoPractico\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -18690,8 +18695,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\santi\\ISTEA\\Herramientas de programacion\\segundo practico\\segundoPractico\\Views\\PaisOrigen\\Edit.cshtml",
+      "TargetPath": "Views\\PaisOrigen\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\santi\\ISTEA\\Herramientas de programacion\\segundo practico\\segundoPractico\\Views\\PaisOrigen\\Index.cshtml",
+      "TargetPath": "Views\\PaisOrigen\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\santi\\ISTEA\\Herramientas de programacion\\segundo practico\\segundoPractico\\Views\\Empresa\\Delete.cshtml",
       "TargetPath": "Views\\Empresa\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\santi\\ISTEA\\Herramientas de programacion\\segundo practico\\segundoPractico\\Views\\PaisOrigen\\Delete.cshtml",
+      "TargetPath": "Views\\PaisOrigen\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18717,6 +18737,11 @@
     {
       "FilePath": "c:\\Users\\santi\\ISTEA\\Herramientas de programacion\\segundo practico\\segundoPractico\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\santi\\ISTEA\\Herramientas de programacion\\segundo practico\\segundoPractico\\Views\\PaisOrigen\\Details.cshtml",
+      "TargetPath": "Views\\PaisOrigen\\Details.cshtml",
       "FileKind": "mvc"
     },
     {

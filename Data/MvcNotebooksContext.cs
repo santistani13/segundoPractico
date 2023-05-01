@@ -17,9 +17,11 @@ namespace segundoPractico.Data
         public DbSet<segundoPractico.Controllers.Notebook> Notebook { get; set; } = default!;
 
         public DbSet<segundoPractico.Controllers.Empresa> Empresa { get; set; } = default!;
+        public DbSet<segundoPractico.Controllers.PaisOrigen> PaisOrigen { get; set; } = default!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder){
             modelBuilder.Entity<Notebook>().HasMany(r => r.Empresas).WithOne(p => p.Notebook).HasForeignKey(p => p.NotebookId);
         }
+
     }
 }
