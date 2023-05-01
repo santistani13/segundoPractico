@@ -13,7 +13,7 @@ public class Empresa {
 
     public int NotebookId { get; set; }
     public virtual Notebook Notebook {get; set; }
-
+    public virtual List<Notebook> Notebooks { get; set; }
     public int PaisOrigenId { get; set; }
     public virtual PaisOrigen PaisOrigen { get; set; }
 

@@ -1,8 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using segundoPractico.Models;
-
-
 namespace segundoPractico.Controllers;
 public class Notebook {
     public int id { get; set; }
@@ -12,5 +10,6 @@ public class Notebook {
     public int PaisOrigenId { get; set; }
     public virtual PaisOrigen PaisOrigen { get; set; }
     public virtual List<Empresa> Empresas { get; set; }
+    public virtual List<PaisOrigen> Paises { get; set; }
 
 }

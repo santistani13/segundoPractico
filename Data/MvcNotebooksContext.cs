@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using segundoPractico.Controllers;
-
 namespace segundoPractico.Data
 {
     public class MvcNotebooksContext : DbContext
@@ -21,6 +20,8 @@ namespace segundoPractico.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder){
             modelBuilder.Entity<Notebook>().HasMany(r => r.Empresas).WithOne(p => p.Notebook).HasForeignKey(p => p.NotebookId);
+            modelBuilder.Entity<Notebook>().HasOne(r => r.PaisOrigen).WithOne(p => p.Notebook).HasForeignKey(p => p.NotebookId);
+            modelBuilder.Entity<Notebook>().HasMany(data => data.Paises).withMany(r => r.Notebook).HasForeignKey(r => r.NotebookId);
         }
 
     }
